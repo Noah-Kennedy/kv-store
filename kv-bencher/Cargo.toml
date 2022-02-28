@@ -1,0 +1,16 @@
+[package]
+name = "kv-bencher"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8.5"
+rand_distr = "0.4.3"
+
+[dependencies.tokio]
+version = "1.17.0"
+features = ["macros", "rt", "time"]
+
+[dependencies.reqwest]
+version = "0.11.9"
+features = ["json"]

@@ -1,0 +1,16 @@
+[package]
+name = "kv-store"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.0"
+rand = "0.8.5"
+base64 = "0.13.0"
+futures = "0.3.21"
+bytes = "1.1.0"
+glommio = "0.7.0"
+
+[dependencies.tokio]
+version = "1.17.0"
+features = ["fs", "sync", "rt", "io-util"]
